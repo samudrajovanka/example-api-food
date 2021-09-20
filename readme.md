@@ -3,25 +3,25 @@
 ## Route
 
 ### Untuk mendapatkan data makanan per page (**default page 1**)
-> GET ```/foods?page=<page>```
+> GET `/foods?page=<page>`
 
 ### Untuk menambahkan data makanan
-> POST ```/foods```  
+> POST `/foods`
 
 Parameter untuk menambahkan makanan
-Body | Type Data
----- | ---------
-name | String
-price | Number
-expired | String  
+| Body | Type Data |
+|------|-----------|
+| name | String |
+| price | Number |
+| expired | String |  
 
 ### Untuk memperbarui makanan dengan id makanan tertentu
-> PUT ```/foods/:foodId```  
+> PUT `/foods/:foodId`
 
 Parameter untuk memperbarui makanan
-Body | Type Data
----- | ---------
-price | Number
+| Body | Type Data |
+|------| ----------|
+| price | Number |
 
 ### Untuk menghapus makanan dengan id makanan tertentu
-> DELETE ```/foods/:foodId```  
+> DELETE `/foods/:foodId` 
